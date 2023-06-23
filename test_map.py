@@ -5,3 +5,13 @@ def double(n):
 numbers = (1, 2, 3, 4)
 doubled = map(double, numbers)
 print(list(doubled))
+
+
+def to_person(s):
+    return {'name': s}
+
+
+names = ('Johnny', 'John')
+
+persons = map(to_person, names)
+print(list(persons))
