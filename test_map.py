@@ -15,3 +15,6 @@ names = ('Johnny', 'John')
 
 persons = map(to_person, names)
 print(list(persons))
+
+persons = map(lambda name: {'name': name}, names)
+print(list(persons))
