@@ -1,6 +1,6 @@
 import requests
 
-url = "https://api.github.com"
+url = "https://httpbin.org/headers"
 
 response = requests.request(
     method="GET",
